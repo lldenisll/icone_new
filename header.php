@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Evara - eCommerce HTML Template</title>
+    <title>Cordel Urbano</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -156,8 +156,8 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="header-info">
                             <ul>
-                                <li><i class="fi-rs-smartphone"></i> <a href="#">(+01) - 2345 - 6789</a></li>
-                                <li><i class="fi-rs-marker"></i><a  href="page-contact.html">Our location</a></li>
+                                <li><i class="fi-rs-smartphone"></i> <a href="#">(11) telefone fanzoca</a></li>
+                                <li><i class="fi-rs-marker"></i><a  href="page-contact.html">fanzoca</a></li>
                             </ul>
                         </div>
                     </div>
@@ -165,9 +165,9 @@
                         <div class="text-center">
                             <div id="news-flash" class="d-inline-block">
                                 <ul>
-                                    <li>Get great devices up to 50% off <a href="shop-grid-right.html">View details</a></li>
-                                    <li>Supper Value Deals - Save more with coupons</li>
-                                    <li>Trendy 25silver jewelry, save up 35% off today <a href="shop-grid-right.html">Shop now</a></li>
+                                    <li>Cordel Urbano<a href="shop-grid-right.html">Veja detalhes</a></li>
+                                    <li>Cupons de desconto</li>
+                                    <li>fanzoca <a href="shop-grid-right.html">Shop now</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                         <div class="search-style-2">
                             <form action="#">
                                 <select class="select-active">
-                                    <option>All Categories</option>
+                                    <option>Todas as categorias</option>
                                     <option>Women's</option>
                                     <option>Men's</option>
                                     <option>Cellphones</option>
