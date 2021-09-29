@@ -456,13 +456,22 @@
 						<!--	NAV MENU INTRO	-->
                         <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block">
 							<nav>
+								<ul>
 								<?php
 									wp_nav_menu(
 										array(
 											'theme_location'	=> 'fanzoca_cordel_main_menu',
+											'menu_class' => '',        
+											'menu' => 'fanzoca_cordel_main_menu',
+											'container' => 'ul',
+											'items_wrap' => '%3$s' //remove classe default wp 
 										)
 									);
 								?>
+								</ul>
+							</nav>
+							
+								
 							</nav>
                         </div>
 						<!--	NAV MENU END	-->
