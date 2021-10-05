@@ -62,7 +62,39 @@ function fanzoca_cordel_config(){
 		)
 	);
 
+	add_theme_support( 'woocommerce', array(
+		'thumbnail_image_width'		=> 255,
+		'single_image_width'		=> 255,
+		'product_grid'				=> array(
+			'default_rows'		=> 10,
+			'min_rows'			=> 5,
+			'max_rows'			=> 10,
+			'default_columns'	=> 4,
+			'min_columns'		=>  4,
+			'max_columns'		=>  4,
+		)
+	) );
+
 }
 add_action( 'after_setup_theme', 'fanzoca_cordel_config', 0);
 
 
+add_action( 'woocommerce_before_shop_loop_item', 'product_cart_wrap_open' );
+function product_cart_wrap_open(){
+	echo '<div class="product-cart-wrap mb-30">';
+}
+
+add_action( 'woocommerce_after_shop_loop_item', 'product_cart_wrap_close' );
+function product_cart_wrap_close(){
+	echo '</div>';
+}
+
+add_action( 'woocommerce_before_shop_loop_item_title', 'product_img_action_wrap_open', 5 );
+function product_img_action_wrap_open(){
+	echo '<div class="product-img-action-wrap"><div class="product-img product-img-zoom">';
+}
+
+add_action( 'woocommerce_shop_loop_item_title', 'product_img_action_wrap_close', 5 );
+function product_img_action_wrap_close(){
+	echo '</div></div>';
+}
